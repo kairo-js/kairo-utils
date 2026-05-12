@@ -22,4 +22,4 @@ declare function compile<TSchemaType extends TSchema>(schema: TSchemaType): Vali
 
 declare function validateTimestamp(currentTick: number, timestamp: number, timeout: number, onTimeout: () => Error, onFuture: () => Error): void;
 
-export { type Random, SeedRandom, compile, safeJsonParse, toError, validateTimestamp };
+export { type Random, SeedRandom, type ValidateFunction, compile, safeJsonParse, toError, validateTimestamp };
