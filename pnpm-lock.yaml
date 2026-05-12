@@ -8,12 +8,21 @@ importers:
 
   .:
     dependencies:
+      '@kairo-js/properties':
+        specifier: ^1.0.2
+        version: 1.0.2
       '@sinclair/typebox':
         specifier: ^0.34.49
         version: 0.34.49
+      '@types/semver':
+        specifier: ^7.7.1
+        version: 7.7.1
       seedrandom:
         specifier: ^3.0.5
         version: 3.0.5
+      semver:
+        specifier: ^7.8.0
+        version: 7.8.0
     devDependencies:
       '@types/seedrandom':
         specifier: ^3.0.8
@@ -199,6 +208,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
+  '@kairo-js/properties@1.0.2':
+    resolution: {integrity: sha512-5gLkGPjOulIZL3WNKrM0CXHtMBA/gtqM1xXZCPWAB1jekGv3aOKoCo6nFgzyVnz1LuORS6LhrUErO+q3FDAs0A==}
+
   '@rollup/rollup-android-arm-eabi@4.60.3':
     resolution: {integrity: sha512-x35CNW/ANXG3hE/EZpRU8MXX1JDN86hBb2wMGAtltkz7pc6cxgjpy1OMMfDosOQ+2hWqIkag/fGok1Yady9nGw==}
     cpu: [arm]
@@ -345,6 +357,9 @@ packages:
 
   '@types/seedrandom@3.0.8':
     resolution: {integrity: sha512-TY1eezMU2zH2ozQoAFAQFOPpvP15g+ZgSfTZt31AUUH/Rxtnz3H+A/Sv1Snw2/amp//omibc+AEkTaA8KUeOLQ==}
+
+  '@types/semver@7.7.1':
+    resolution: {integrity: sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==}
 
   acorn@8.16.0:
     resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
@@ -497,6 +512,11 @@ packages:
   seedrandom@3.0.5:
     resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
 
+  semver@7.8.0:
+    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   source-map@0.7.6:
     resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
     engines: {node: '>= 12'}
@@ -648,6 +668,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  '@kairo-js/properties@1.0.2': {}
+
   '@rollup/rollup-android-arm-eabi@4.60.3':
     optional: true
 
@@ -728,6 +750,8 @@ snapshots:
   '@types/estree@1.0.8': {}
 
   '@types/seedrandom@3.0.8': {}
+
+  '@types/semver@7.7.1': {}
 
   acorn@8.16.0: {}
 
@@ -881,6 +905,8 @@ snapshots:
       fsevents: 2.3.3
 
   seedrandom@3.0.5: {}
+
+  semver@7.8.0: {}
 
   source-map@0.7.6: {}
 
